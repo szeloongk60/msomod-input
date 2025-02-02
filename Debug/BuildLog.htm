@@ -1,0 +1,64 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: iputy, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\max\iputy\Debug\RSP00004B.rsp" with contents
+[
+/Od /I "D:\3dmax8sdk\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPUTY_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /RTC1 /MT /Yu"stdafx.h" /Fp"Debug/MsoIn.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /ZI /TP
+.\iputy.cpp
+.\dooo.cpp
+.\3dmax.cpp
+]
+Creating command line "cl.exe @c:\max\iputy\Debug\RSP00004B.rsp /nologo"
+Creating temporary file "c:\max\iputy\Debug\RSP00004C.rsp" with contents
+[
+/Od /I "D:\3dmax8sdk\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPUTY_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /RTC1 /MT /Yc"stdafx.h" /Fp"Debug/MsoIn.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /ZI /TP
+.\stdafx.cpp
+]
+Creating command line "cl.exe @c:\max\iputy\Debug\RSP00004C.rsp /nologo"
+Creating command line "rc.exe /fo"Debug/iputy.res" .\iputy.rc"
+Creating temporary file "c:\max\iputy\Debug\RSP00004D.rsp" with contents
+[
+/OUT:"Z:\MsoIn.dle" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\3dmax8sdk\lib" /DLL /DEF:"iputy.def" /DEBUG /PDB:"Debug/iputy.pdb" /SUBSYSTEM:WINDOWS /IMPLIB:"Debug/iputy.lib" /MACHINE:X86 core.lib 
+geom.lib mesh.lib
+ maxutil.lib 
+paramblk2.lib libcpmt.lib libcmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+.\Debug\3dmax.obj
+.\Debug\dooo.obj
+.\Debug\iputy.obj
+.\Debug\stdafx.obj
+.\Debug\iputy.res
+]
+Creating command line "link.exe @c:\max\iputy\Debug\RSP00004D.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+iputy.cpp
+c:\max\iputy\iputy.cpp(39) : warning C4101: 'mateH' : unreferenced local variable
+c:\max\iputy\iputy.cpp(101) : warning C4129: '%' : unrecognized character escape sequence
+dooo.cpp
+3dmax.cpp
+Generating Code...
+Compiling resources...
+Linking...
+LINK : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+   Creating library Debug/iputy.lib and object Debug/iputy.exp
+iputy.exp : warning LNK4070: /OUT:iputy.dle directive in .EXP differs from output filename 'Z:\MsoIn.dle'; ignoring directive
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\max\iputy\Debug\BuildLog.htm"
+iputy - 0 error(s), 5 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
